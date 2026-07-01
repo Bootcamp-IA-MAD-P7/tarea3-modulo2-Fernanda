@@ -673,3 +673,23 @@ Ejemplo:
 | 8 | 0.94 | Aprueba |
 
 Para evaluar el modelo, no solo se puede mirar cuántas predicciones acertó. También conviene revisar la matriz de confusión, precision, recall y F1-Score para entender mejor qué tipo de errores cometió.
+
+---
+
+## Parte 2: práctica guiada de regresión logística
+
+El ejercicio práctico está desarrollado en el notebook [`parte2_regresion_logistica.ipynb`](parte2_regresion_logistica.ipynb).
+
+La práctica usa un dataset sintético y reproducible para predecir si un estudiante aprueba según sus horas de estudio. Incluye exploración de datos, visualizaciones, entrenamiento con `LogisticRegression`, métricas de clasificación, ROC-AUC, curva sigmoide y ejemplos de predicción con nuevos estudiantes.
+
+Para instalar las dependencias:
+
+```bash
+pip install -r requirements.txt
+```
+
+Para abrir el notebook:
+
+```bash
+jupyter notebook parte2_regresion_logistica.ipynb
+```
